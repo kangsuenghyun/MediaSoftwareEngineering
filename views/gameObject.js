@@ -55,7 +55,6 @@
 
 class EnemyBall{
     constructor(x,y,destinationX,destinationY, wall){
-
         this.color = "#000000";
         this.x = x;
         this.y = y;
