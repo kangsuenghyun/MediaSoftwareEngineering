@@ -4,7 +4,6 @@
     socket.on('item_detect', function(){
         io.sockets.emit('coffee_effect', {coffee : true});
     })
-
     socket.on('hotsix_detect', function(){
         io.sockets.emit('hotsix_effcet',{hotsix : true});
     })
